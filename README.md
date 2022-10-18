@@ -56,8 +56,9 @@ Adjusted Data:
 In the original analysis, Thomas High School ranked 2nd in the district. But after adjusting the 9th grade data, Thomas High School ranked in the exact middle of 15 campuses at 8th from the bottom. 
 
 ### How does replacing the ninth-grade scores affect the following:
-*Math and reading scores by grade:*
+**Math and reading scores by grade:**
 
+Original Data:
 ![4_avgs_origin](https://user-images.githubusercontent.com/68654746/196317840-33d17015-67bc-4cef-9199-1fabb2267669.jpg)
 
 In the original analysis, 9th graders at Thomas High School had 83.4 math average and 83.8 reading average. In the new analysis, I replaced the 9th grade scores with null values as NaN.
@@ -66,12 +67,35 @@ Adjusted Average Math Scores     //     Adjusted Average Reading Scores:
 
 <img width="228" alt="4_avgs_adjusted" src="https://user-images.githubusercontent.com/68654746/196318054-c51f0d64-4116-4b12-977b-c290b0c3b2c0.png"><img width="236" alt="4_avgs_adjusted2" src="https://user-images.githubusercontent.com/68654746/196318177-cd44a45c-626c-4315-b6cd-0ff5fbae4749.png">
 
-*Scores by school spending:*
+**Scores by school spending:**
 
-*Scores by school size:*
+Original Data:
+<img width="618" alt="5_spend_origin" src="https://user-images.githubusercontent.com/68654746/196319086-15755645-4189-48e0-b1c0-c4f054b195bf.png">
 
-*Scores by school type:*
+Adjusted Data:
+<img width="620" alt="5_spend_adjusted" src="https://user-images.githubusercontent.com/68654746/196319072-ec2cc696-6cac-4729-994d-b40490edae95.png">
 
+Thomas High School falls in the $630-$644/student spending range. After replacing the 9th graders' math and reading scores, there was very little to insignificant impact on scores by school spending.
+
+**Scores by school size:**
+
+Original Data:
+<img width="563" alt="6_size_origin" src="https://user-images.githubusercontent.com/68654746/196319807-ae9d099b-8957-47ee-b654-685340c5f5e4.png">
+
+Adjusted Data:
+<img width="560" alt="6_size_adjusted" src="https://user-images.githubusercontent.com/68654746/196319795-b7cff37a-df84-4c04-9d64-54a134950bce.png">
+
+Thomas High School is defined as a medium sized school. After updating the 9th graders' results, there was very little change in scores by campus size.
+
+**Scores by school type:**
+
+Original Data:
+<img width="531" alt="7_type_origin" src="https://user-images.githubusercontent.com/68654746/196320155-d9743f03-cb1e-49bf-bf04-67845dac78d7.png">
+
+Adjusted Data:
+<img width="531" alt="7_type_updated" src="https://user-images.githubusercontent.com/68654746/196320165-98421016-c77c-4b15-8c57-bae7e2a6fdb8.png">
+
+Thomas High School is a charter school type. Again, there was very little impact by school type after removing the 9th grade scores.
 
 ## Summary: Summarize four major changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
 
@@ -82,5 +106,3 @@ Adjusted Average Math Scores     //     Adjusted Average Reading Scores:
 3. Data at the grade level will now show as "NaN" in reports for the 9th grade students at Thomas High School  
 
 4. In addition to the overall passing rate, the campus math and reading averages and passing percentages all saw shifts.  
-
-The major changes will be seen at the lower views of the disaggregated data with minor impact to the larger data views.
